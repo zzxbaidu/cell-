@@ -15,6 +15,8 @@
 		B50DBB091DC14412000A1A51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50DBB071DC14412000A1A51 /* LaunchScreen.storyboard */; };
 		B50DBB141DC14413000A1A51 /* cell_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B50DBB131DC14413000A1A51 /* cell_____Tests.m */; };
 		B50DBB1F1DC14413000A1A51 /* cell_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B50DBB1E1DC14413000A1A51 /* cell_____UITests.m */; };
+		B50DBB2E1DC1454E000A1A51 /* LLTempModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B50DBB2D1DC1454E000A1A51 /* LLTempModel.m */; };
+		B50DBB311DC14692000A1A51 /* LLHeadFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = B50DBB301DC14692000A1A51 /* LLHeadFootView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		B50DBB1A1DC14413000A1A51 /* cell的加载方式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cell的加载方式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50DBB1E1DC14413000A1A51 /* cell_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "cell_____UITests.m"; sourceTree = "<group>"; };
 		B50DBB201DC14413000A1A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50DBB2C1DC1454E000A1A51 /* LLTempModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTempModel.h; sourceTree = "<group>"; };
+		B50DBB2D1DC1454E000A1A51 /* LLTempModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTempModel.m; sourceTree = "<group>"; };
+		B50DBB2F1DC14692000A1A51 /* LLHeadFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLHeadFootView.h; sourceTree = "<group>"; };
+		B50DBB301DC14692000A1A51 /* LLHeadFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLHeadFootView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				B50DBAFD1DC14412000A1A51 /* AppDelegate.m */,
 				B50DBAFF1DC14412000A1A51 /* ViewController.h */,
 				B50DBB001DC14412000A1A51 /* ViewController.m */,
+				B50DBB2F1DC14692000A1A51 /* LLHeadFootView.h */,
+				B50DBB301DC14692000A1A51 /* LLHeadFootView.m */,
+				B50DBB2C1DC1454E000A1A51 /* LLTempModel.h */,
+				B50DBB2D1DC1454E000A1A51 /* LLTempModel.m */,
 				B50DBB021DC14412000A1A51 /* Main.storyboard */,
 				B50DBB051DC14412000A1A51 /* Assets.xcassets */,
 				B50DBB071DC14412000A1A51 /* LaunchScreen.storyboard */,
@@ -207,7 +217,7 @@
 				TargetAttributes = {
 					B50DBAF51DC14412000A1A51 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 4MU5292B6H;
+						DevelopmentTeam = N9EV8487M2;
 						ProvisioningStyle = Automatic;
 					};
 					B50DBB0E1DC14413000A1A51 = {
@@ -277,8 +287,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B50DBB011DC14412000A1A51 /* ViewController.m in Sources */,
+				B50DBB311DC14692000A1A51 /* LLHeadFootView.m in Sources */,
 				B50DBAFE1DC14412000A1A51 /* AppDelegate.m in Sources */,
 				B50DBAFB1DC14412000A1A51 /* main.m in Sources */,
+				B50DBB2E1DC1454E000A1A51 /* LLTempModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,10 +439,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4MU5292B6H;
+				DEVELOPMENT_TEAM = N9EV8487M2;
 				INFOPLIST_FILE = "cell的加载方式/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "---.cell-----";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.cell--kkkrk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -439,10 +451,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4MU5292B6H;
+				DEVELOPMENT_TEAM = N9EV8487M2;
 				INFOPLIST_FILE = "cell的加载方式/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "---.cell-----";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.cell--kkkrk";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -516,6 +528,7 @@
 				B50DBB251DC14413000A1A51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B50DBB261DC14413000A1A51 /* Build configuration list for PBXNativeTarget "cell的加载方式Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				B50DBB281DC14413000A1A51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B50DBB291DC14413000A1A51 /* Build configuration list for PBXNativeTarget "cell的加载方式UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				B50DBB2B1DC14413000A1A51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
